@@ -30,7 +30,7 @@ export class ButtonNewComponent implements OnInit {
     
   }
 
-  @Input() buttonname= 'Button Name';
-  @Input() buttonlink= '#';
+  @Input() buttonname = 'Button Name';
+  @Input() buttonlink = '#';
 
 }

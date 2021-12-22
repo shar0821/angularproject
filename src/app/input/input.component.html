@@ -1,0 +1,8 @@
+<form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>{{inputlabel}}</mat-label>
+      <input id="I" matInput placeholder="{{inputplaceholder}}" [(ngModel)] = "value" 
+      [ngModelOptions]="{standalone: true}">
+    </mat-form-field>
+</form>
+<p>{{value}}</p>
