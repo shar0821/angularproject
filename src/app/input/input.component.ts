@@ -38,7 +38,7 @@ export class InputComponent implements OnInit {
     e.preventDefault();
      if(e.keyCode===13){//enter key thala
        //console.log(this.value);//only when enter key is pressed
-       window.alert("nithin mandaya!!!!!");
+       window.alert("input works!!!");
        this.value="";
       }
 
